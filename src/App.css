@@ -260,7 +260,7 @@ body{
   top: 5px;
 }
 .logo{
-  padding-top: 20px;
+  padding-top: 25px;
 }
 .nav>h3{
   margin-left: 20px;
@@ -272,5 +272,9 @@ body{
   display: flex;
   justify-content: center;
   z-index: 5;
+}
+
+.about{
+  margin: 10px 30px;
 }
 }
