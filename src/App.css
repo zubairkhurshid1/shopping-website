@@ -1,0 +1,276 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+a{
+  color: black;
+}
+body{
+  /* background-color: #f6e6d9; */
+  /* background-color: #e0d100; */
+  background-color: #ffee00;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.logo{
+  font-family: monospace;
+  margin-left: 50px;
+  /* margin-right: 50px; */
+}
+
+.nav{
+  font-family: monospace;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10vw;
+  position: fixed;
+  border: solid black 2px;
+  z-index: 100;
+  background-color:#ffee00;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
+
+.nav-head{
+  position: fixed;
+  z-index: 1;
+}
+
+.nav>h3{
+  margin-left: 15vh;
+  margin-top: 10;
+  margin-right: 5vh;
+  cursor: pointer;
+  /* justify-content: space-around; */
+}
+
+.header{
+  font-family: monospace;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  /* gap: 200; */
+  /* justify-content: space-between; */
+}
+
+.circle{
+  background-color: #e0d100;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  border-radius: 50%;
+}
+
+.head{
+  /* background-color: #e0d100; */
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 200px;
+  left: 600px;
+  border-radius: 50%;
+  font-size: 65px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: black;
+}
+.img1{
+  position: relative;
+  left: -70px;
+}
+.line{
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  top: 257px;
+}
+.line2{
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+.products{
+ 
+  text-align: center;
+  font-family: monospace;
+   /* display: flex; */
+  /* flex-direction: row;  */
+  /* flex-wrap: wrap; */
+  
+}
+.gap{
+  padding-top: 270px;
+}
+
+.product{
+  height: 280px;
+  width: 200px;
+  background-color: #ffffff;
+  padding: 15px;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  text-align: center;
+  font-family: monospace;
+  margin: 10px 30px;
+  align-items: center;
+}
+
+.proimg{
+  
+  height: 200px;
+  /* width: 250px; */
+  background-size: cover;
+}
+.list{
+  display: flex;
+  margin: 0px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.price{
+  color: rgb(0, 168, 0);
+  font-size: 20px;
+}
+
+.brand{
+  font-size: 18px;
+  font-weight: bolder;
+}
+.title{
+  font-weight: bolder;
+  /* font-size: 16px; */
+}
+
+.about{
+  font-size: 18px;
+  font-family: monospace;
+  margin: 20px 80px;
+  text-align: justify;
+}
+.heading{
+  text-align: center;
+}
+
+.button{
+  background-color: #ffee00;
+  border: none;
+  border-radius: 50px;
+  width: 90px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.main-h{
+  color: antiquewhite;
+  /* border: solid black 2px; */
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feed{
+  font-size: 18px;
+  font-family: monospace;
+  margin: 10px;
+  text-align: justify;
+}
+
+.input{
+  border:none;
+  margin: 10px;
+  padding: 10px;
+  height: 30px;
+  width: 260px;
+  border-radius: 50px;
+}
+
+.textarea{
+  border: none;
+  text-decoration: none;
+  height: 200px;
+  width: 260px;
+  padding: 10px;
+  border-radius: 20px;
+  resize: none;
+}
+
+.button2{
+  background-color: #ffee00;
+  border: solid black 2px ;
+  border-radius: 50px;
+  width: 90px;
+  padding: 8px;
+  cursor: pointer;
+  margin: 6px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media (max-width:990px) {
+  .fs-small{
+    font-size: 32px;
+  }
+  .img1{
+  height: 200px;
+  left: -40px;
+}
+.circle{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  top: 100px;
+  left: 60px;
+}
+.head{
+  top: 300px;
+  left: 60px;
+}
+.line{
+  top: 120px;
+}
+.gap{
+  padding-top: 140px;
+}
+
+.nav{
+  margin: 0px;
+  margin-top: 0px;
+  top: 0px;
+}
+.logo{
+  padding-top: 20px;
+}
+.nav>h3{
+  margin-left: 5px;
+}
+
+.nav-head{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+}
+}
