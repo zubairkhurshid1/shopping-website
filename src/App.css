@@ -257,13 +257,13 @@ body{
 .nav{
   margin: 0px;
   margin-top: 0px;
-  top: 0px;
+  top: 5px;
 }
 .logo{
   padding-top: 20px;
 }
 .nav>h3{
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .nav-head{
